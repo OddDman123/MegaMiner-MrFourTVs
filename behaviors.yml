@@ -2,13 +2,13 @@ behaviors:
   SoccerTwos:
     trainer_type: poca
     hyperparameters:
-      batch_size: 4048 #default was 2048
-      buffer_size: 60480 #default was 20480
-      learning_rate: 0.0005 #default was 0.003
+      batch_size: 4096 #default was 2048
+      buffer_size: 40960 #default was 20480
+      learning_rate: 0.005 #default was 0.003
       beta: 0.004 #default is 0.004
       epsilon: 0.2 #default is 0.2
       lambd: 0.95
-      num_epoch: 3 #default is 8
+      num_epoch: 5 #default is 8
       learning_rate_schedule: constant
     network_settings:
       normalize: false
@@ -20,7 +20,7 @@ behaviors:
         gamma: 0.99
         strength: 1.0
     keep_checkpoints: 5
-    max_steps: 15000000
+    max_steps: 5000000
     time_horizon: 1000
     summary_freq: 10000
     self_play:
