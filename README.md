@@ -1,3 +1,2 @@
 # MegaMiner-MrFourTVs
-MegaMiner Submission
-# By Dorian Williams-Webster
+By Dorian Williams Webster
