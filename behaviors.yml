@@ -6,14 +6,14 @@ behaviors:
       buffer_size: 40960 #default was 20480
       learning_rate: 0.005 #default was 0.003
       beta: 0.004 #default is 0.004
-      epsilon: 0.2 #default is 0.2
+      epsilon: 0.3 #default is 0.2
       lambd: 0.95
       num_epoch: 5 #default is 8
       learning_rate_schedule: constant
     network_settings:
       normalize: false
       hidden_units: 512 #default is 1024
-      num_layers: 10
+      num_layers: 5 #default was 10
       vis_encode_type: simple
     reward_signals:
       extrinsic:
